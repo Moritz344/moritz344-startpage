@@ -1,0 +1,22 @@
+.container{
+  position: relative;
+  background-color: var(--gruvbox-dark0);
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease; 
+}
+
+.container:hover{
+  transform: scale(1.06);
+  cursor: pointer;
+}
+
+.container img{
+  float: left;
+  margin-right: 5px;
+}
+
