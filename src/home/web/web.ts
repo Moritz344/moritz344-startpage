@@ -12,4 +12,8 @@ export class Web {
   @Input() icon: string = "";
 
   constructor() { }
+
+  onOpen() {
+    window.open(this.link);
+  }
 }
